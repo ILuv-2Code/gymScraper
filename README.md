@@ -9,7 +9,7 @@ To deactive it use:
 `$ deactivate`
 -->
 
-# UConn Rec Center Occupancy Analysis by Myself & [mineable3](https://github.com/mineable3)
+# UConn Rec Center Occupancy Analysis by [David Matos](https://github.com/ILuv-2Code) & [Emmet Spaeth](https://github.com/mineable3)
 
 ## Overview
 
