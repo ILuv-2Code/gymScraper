@@ -51,10 +51,7 @@ The collected data timestamps are **3 hours and 45 minutes ahead** of Eastern Ti
 
 ### 5. Visualization
 
-- Use matplotlib to create three analytical graphs:
-  1. **Bar chart:** Average occupancy by day of week
-  2. **Line plot:** Average occupancy by hour
-  3. **Comparative line plot:** Weekday vs weekend hourly patterns
+- Use matplotlib to create different graph types (view in graphs directory)
 - Format axes and gridlines for readability
 - Maintain consistent ordering for clear interpretation
 - Added console statistics (Total Data Points, Mean Occupancy, etc.)
@@ -76,14 +73,12 @@ Based on the analysis, typical patterns observed include:
 
 ## Limitations
 
-- Rows with errors or missing times are dropped, but large gaps can introduce bias
 - Fixed interval sampling may smooth out short-term peaks, underestimating maximum occupancy
-- Students are only required to scan an ID on the way in, not out. This makes the true occupancy unknown because they don't know exactly how many people have left
-- The occupancy on the website doesn't truly reflect how full the Rec center feels. For example, a fitness class may inflate the occupancy, but because classes are limited to studios it won't affect regular occupants.
+- The occupancy on the website doesn't truly reflect how full the Rec center feels. For example, a fitness class may inflate the occupancy, but because classes are hosted in studios,  that actual population won't affect regular occupants on the gym floor.
 
 ## Future Notes
 
-- Perhaps make a ML algorithm from this data
+- Make a ML algorithm from this data
 - Collect more data to compare patterns with the spring semester
-- Introduct data collection at random intervals
+- Collect data at random intervals
 
